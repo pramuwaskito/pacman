@@ -1,7 +1,7 @@
 {
   "short_name": "Pacman",
-  "name": "Free Pacman",
-  "description": "Play classic Pacman. No fuss. 100% free.",
+  "name": "Pac-Man Game",
+  "description": "Pac-Man is an iconic maze video game developed by Namco that was released in May 1980 and still very popular today.",
   "icons": [
 	{
 	  "src": "images/pacman-game-icon-192.png",
