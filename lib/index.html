@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>game-lib</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height,
+    user-scalable=no, initial-scale=1, maximum-scale=1"
+    />
+    <!-- Load 'sounds-some-sounds' if 'isSoundEnabled' option is true -->
+    <script src="js/sound.js"></script>
+    <!-- Load 'gif-capture-canvas' if 'isCapturing' option is true -->
+    <script src="js/gif-capture-canvas.js"></script>
+    <!-- Load 'pixi' when using pixi theme -->
+    <script src="js/pixi.min.js"></script>
+    <script src="js/pixi-filters.js"></script>
+    <!-- Load 'terser' if 'isMinifying' option is true -->
+    <!--
+    <script src="https://unpkg.com/terser@4.6.11/dist/bundle.min.js"></script>
+    -->
+    <!-- Load 'lodash.clonedeep' when using rewind -->
+    <!--
+    <script>
+      var module = {};
+    </script>
+    <script src="https://unpkg.com/lodash.clonedeep@4.5.0/index.js"></script>
+    -->
+    <script src="js/bundle.js"></script>
+    <script>
+      addGameScript();
+      window.addEventListener("load", onLoad);
+    </script>
+  </head>
+  <body style="background: #ddd"></body>
+</html>
